@@ -1,0 +1,134 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1{
+  margin: 0;
+  font-size: 78px;
+  color: #D9C738;
+}
+
+h1.bangers-regular{
+  font-family: "Bangers", system-ui;
+}
+
+header {
+background: linear-gradient(90deg,rgba(17, 17, 186, 1) 0%, rgba(148, 15, 40, 1) 50%, rgba(17, 17, 186, 1) 100%);
+  height: 200px;
+  border-bottom-left-radius: 50% 7%;
+  border-bottom-right-radius: 50% 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body{
+ background: #2f2f73;
+background: linear-gradient(0deg,rgba(47, 47, 115, 1) 0%, rgba(68, 66, 66, 1) 46%, rgba(173, 142, 142, 1) 100%);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.top-text{
+position: absolute;
+top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.bot-text{
+position: absolute;
+bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.back-img{
+  width: 200px;
+  display: block;
+  border: white solid 2px;
+  z-index: 2;
+}
+
+.meme{
+position: relative;
+display: inline-block;
+overflow: hidden;
+border: solid black 3px;
+}
+
+.meme:hover{
+ filter: blur(1px);
+}
+
+
+#memeContainer{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+align-items: flex-start;
+margin: 5px;
+}
+
+.vina-sans-regular {
+  font-family: "Vina Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bangers-regular {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+span.vina-sans-regular {
+  font-family: "Vina Sans", sans-serif;
+   text-shadow: 1px 1px white;
+}
+
+
+input[type="text"]{
+background-color: black;
+color : white;
+border: black;
+border-radius: 15px;
+margin: 10px 0px;
+}
+
+input[type='button']{
+margin-bottom: 5px;
+}
+
+input[type="text"]::placeholder{
+  color: #bdc2c3;
+}
+
+
+.bangers-regular {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  background-color: #bdc2c3;
+  margin-top: -10px; 
+  padding: 10px;
+  margin-left: 15px;
+  max-width: 25%;
+  border: 2px solid black;
+  border-radius: 3%;
+
+}
+
+#notice{
+  color: #C22400;
+}
